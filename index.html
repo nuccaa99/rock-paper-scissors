@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <h1 class="display-4 fw-normal p-3">Rock Paper Scissors</h1>
+
+    <div class="game">
+        <p id="make-choice" class="fs-3 text-muted">Make a choice! Try to score 3 points!</p>
+        <div class="buttons">
+            <button class="Rock" type="submit" style="background-color:transparent; border-color:transparent;">
+                <img class="Rock" src="https://i.ibb.co/Dk15MTx/rock.png" height="90" alt="rock"></button>
+
+            <button class="Paper" type="submit" style="background-color:transparent; border-color:transparent;">
+                <img class="Paper" src="https://i.ibb.co/BBMTxnx/paper.png" height="90" alt="paper"></button>
+
+            <button class="Scissors" type="submit" style="background-color:transparent; border-color:transparent;">
+                <img class="Scissors" src="https://i.ibb.co/sRGnF2M/scissors.png" height="90" alt="scissors"></button>
+
+        </div>
+
+        <div class="choices-names">
+            <p id="your-choice-title" class="fs-4 text-muted">Player <span id="playerScore">0</span> </p>
+            <p id="computer-choice-title" class="fs-4 text-muted">Computer <span id="computerScore">0</span> </p>
+        </div>
+        <div class="choices">
+            <p id="user-choice"></p>
+            <p id="computer-choice"></p>
+        </div>
+        <div>
+            <p id="result"></p>
+        </div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
